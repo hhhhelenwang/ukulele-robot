@@ -1,13 +1,24 @@
 // pins to stepping motors
-const int gMotorPin;
-const int cMotorPin;
-const int eMotorPin;
-const int aMotorPin;
+const int gStepMotorPin;
+const int cStepMotorPin;
+const int eStepMotorPin;
+const int aStepMotorPin;
 
 // pins to the blue motors
-// edit
+const int gBlueMotorPin;
+const int cBlueMotorPin;
+const int eBlueMotorPin;
+const int aBlueMotorPin;
 
 // pin to high speed motor
+const int sweepMotorPin;
+
+// travel distance of stepping motor
+const int oneFret;
+
+// cords mapping
+
+// button pins
 
 
 void setup() {
@@ -19,3 +30,4 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 }
+
